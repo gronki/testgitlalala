@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 def main() -> None:
-    n_points = 100
+    n_points = 200
     x = [random.random() for _ in range(n_points)]
     y = [random.random() for _ in range(n_points)]
 
