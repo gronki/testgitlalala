@@ -1,12 +1,11 @@
-import random
-
+import numpy as np
 import matplotlib.pyplot as plt
 
 
 def main() -> None:
     n_points = 200
-    x = [random.random() for _ in range(n_points)]
-    y = [random.random() for _ in range(n_points)]
+    x = np.random.random(n_points)
+    y = np.random.random(n_points)
 
     plt.figure(figsize=(6, 4))
     plt.scatter(x, y, alpha=0.7)
